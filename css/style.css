@@ -1,0 +1,40 @@
+/* -----------  navbar ----------- */
+
+.navbar-brand {
+      padding: 13px 15px;
+   }
+
+/* -----------  message ----------- */
+
+#message {
+	margin-top: 60px;
+}
+
+#contacts {
+	font-size: 16px;
+	line-height: 30px;
+}
+/* -----------  skills ----------- */
+
+#skills img {
+  width: 50px;
+  height: 50px;
+}
+
+/* ----------- global ----------- */
+
+
+
+/* ----------- education ----------- */
+
+
+/* ----------- footer ----------- */
+
+
+footer {
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
+

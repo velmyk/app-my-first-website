@@ -1,0 +1,16 @@
+<br>
+<div class="col-3">
+	<p class="text-center"><img ng-src="{{info.img}}" alt="{{info.name}}"></p>
+</div><!-- end col-3 -->
+<div class="col-5">
+	<p><a href="{{info.url}}" target="_blank"><b>{{info.title}}</b></a></p>
+	<p>by <b>{{info.school}}</b></p>
+	<p><i>Date: {{info.date}}</i></p>
+	<hr>
+</div><!-- end col-5 -->
+<div class="col-2" ng-show='showView($index, "htmlcss")'>
+	<a href="{{info.view}}" target="_blank"><p class="text-center">View course project</p></a>
+</div><!-- end col-2 -->
+<div class="col-2" ng-show='showGithub($index, "htmlcss")'>
+	<a href="{{info.github}}" target="_blank"><p class="text-center">View on GitHub</a>
+</div><!-- end col-2 -->
